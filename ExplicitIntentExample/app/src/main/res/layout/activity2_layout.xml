@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Activity2 - Receive value"
+        android:typeface="normal"
+        android:textStyle="normal"
+        android:textSize="14px"
+        android:textColor="#cccccc"
+        android:background="#333333"
+        />
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/value_receive"
+        android:textSize="20px"
+        android:gravity="center"
+        android:lines="1"
+        android:numeric="integer"
+        android:enabled="false"
+        />
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/call_button"
+            android:text="Call Broadcast Receiver"
+            android:layout_alignParentBottom="true"
+            />
+    </RelativeLayout>
+</LinearLayout>
